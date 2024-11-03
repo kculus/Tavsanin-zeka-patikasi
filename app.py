@@ -5,7 +5,7 @@ from app4 import generate_story_suggestions, generate_continuation_options,gener
 
 app = Flask(__name__)
 
-api_key = "AIzaSyA9XaWBe0Ifr3mFElV5e4wQPsG5t1Aqa9M"  
+api_key = "YOUR API KEY"  
 genai.configure(api_key=api_key)
 
 # Model ve ayarları oluştur
